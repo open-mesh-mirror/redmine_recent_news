@@ -1,6 +1,6 @@
 require 'redmine'
 
-require_dependency 'redmine_recent_news'
+require_relative './lib/redmine_recent_news'
 
 Redmine::Plugin.register :redmine_recent_news do
   name 'Recent news macro'
